@@ -1,0 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap'); */
+
+body{
+    font-family: 'Audiowide', cursive;
+     background-image: url(image6.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+    /* background: linear-gradient(rgb(253, 64, 64),rgb(248, 248, 102),rgb(142, 142, 255),rgb(237, 80, 237),rgb(100, 249, 100)); */
+}
+
+.container{
+    margin-top: 5%;
+}
+
+.card{
+    padding: 5%
+}
+/* Curved border */
+.card,.form-control,.form-select,.input-group-text,.calculateBtn,option{
+    border-radius: 50px;
+    background-color: rgba(255, 206, 195, 0.726);
+    /* box-shadow: 5px 5px 10px rgb(176, 255, 73); */
+}
+
+.calculateBtn{
+    color: #000;
+}
+ .card{
+    box-shadow: 5px 5px 15px rgba(255, 116, 111, 0.726);
+ }

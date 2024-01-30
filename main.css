@@ -1,0 +1,106 @@
+/* .container-fluid{ 
+    border: 3px solid blue;
+ } */
+/* .row{ 
+    border: 3px solid red;
+ } */
+/* .col{ 
+    border: 3px solid green;
+    
+     } */
+.row1{
+    height: 41vh;
+    animation-duration: 10s;
+    animation-name: tanu;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes tanu{
+0%{
+ background:url(image1.jpg);
+ background-size: cover; 
+ background-repeat: no-repeat;
+ 
+}
+25%{
+ background:url(image2.jpg);
+ background-size: cover; 
+ background-repeat: no-repeat;
+}
+50%{
+ background:url(image3.jpg);
+  background-size: cover; 
+ background-repeat: no-repeat;
+}
+75%{
+background: url(image4.jpg);
+ background-size: cover; 
+background-repeat: no-repeat;
+}
+100%{
+background: url(image5.jpg);
+ background-size: cover; 
+background-repeat: no-repeat;
+}
+}
+.col h1{
+    background: linear-gradient(rgb(124, 255, 242),rgb(85, 60, 250));
+   /* border: 2px solid black; */
+   border-radius: 25px;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-top: 35px;
+   font-size: 50px;
+   box-shadow: 5px 5px 10px rgb(76, 60, 79);
+}
+.topic1 h2{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    background: linear-gradient(  rgb(110, 220, 248),rgb(87,78,149));
+    box-shadow: 5px 5px 15px rgb(56,66,65);
+    color:rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 40px;
+}
+.topic1 h2:hover{
+    color:aqua;
+    background : linear-gradient(rgb(80, 41, 255),rgb(255, 174, 53));
+}
+.topic2 h2:hover{
+    color:aqua;
+    background : linear-gradient(rgb(80, 41, 255),rgb(255, 174, 53));
+    
+}
+
+.topic1 img{
+    margin-left: 100px;
+}
+
+.topic2 h2{
+    text-align: center;
+    margin-top:  25px;
+    margin-bottom: 35px;
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    background: linear-gradient(  rgb(110, 220, 248),rgb(87, 78, 149));
+    box-shadow: 5px 5px 15px rgb(56, 66, 65);
+    color:rgb(2, 2, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif  ;
+    font-size: 40px;
+    
+}
+.topic2 img{
+    margin-left: 100px;
+}
+
+.topic1{
+    background: linear-gradient(rgb(33, 31, 33), rgb(3, 253, 253), rgb(36, 61, 252));
+}
+.topic2{
+    background: linear-gradient(rgb(33,31,33), rgb(3,253,253), rgb(36,61,252));
+}
